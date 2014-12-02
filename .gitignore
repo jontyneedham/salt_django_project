@@ -1,0 +1,9 @@
+*.pyc
+*.DS_Store
+*.*~
+*~
+*.pdf
+*.jpeg
+*.jpg
+#*#
+.vagrant/
