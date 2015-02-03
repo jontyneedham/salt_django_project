@@ -4,4 +4,4 @@ vagrant
 ubuntu
 postgresql
 
-It was inspired from the http://marselester.com/developing-django-project-with-saltstack.html
+It was inspired from http://marselester.com/developing-django-project-with-saltstack.html
