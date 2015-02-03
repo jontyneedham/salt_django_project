@@ -11,3 +11,6 @@ website_static_dir: /home/vagrant/app/app/collected_static/
 # gunicorn paths
 website_gunicorn_bin_path: /home/vagrant/venv/bin/gunicorn
 website_gunicorn_conf_path: /home/vagrant/gunicorn.conf.py
+
+# emacs path
+dot_files: /home/vagrant/.dot_files

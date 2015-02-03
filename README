@@ -1,0 +1,7 @@
+This is a basic template for provision django projects with:
+salt
+vagrant
+ubuntu
+postgresql
+
+It was inspired from the http://marselester.com/developing-django-project-with-saltstack.html

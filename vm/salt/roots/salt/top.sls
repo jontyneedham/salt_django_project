@@ -6,3 +6,4 @@ base:
   - website.django
   - website.wsgiserver
   - website.webserver
+  - emacs
