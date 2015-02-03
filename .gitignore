@@ -5,5 +5,6 @@
 *.pdf
 *.jpeg
 *.jpg
-#*#
+\#*\#
 .vagrant/
+.\#*\#
