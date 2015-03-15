@@ -1,3 +1,6 @@
-postgresql_user: owner
-postgresql_password: ghost
-postgresql_db: blog
+postgresql_user: postgres
+postgresql_password: postgres
+postgresql_db: situnes
+
+# database
+postgresql_database_dir: /home/vagrant/database

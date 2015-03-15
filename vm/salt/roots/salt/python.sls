@@ -12,8 +12,8 @@ pip:
     - require:
       - pkg: python2
 
-virtualenv:
-  pip:
-    - installed
-    - require:
-      - pkg: pip
+# virtualenv:
+#   pip:
+#     - installed
+#     - require:
+#       - pkg: pip

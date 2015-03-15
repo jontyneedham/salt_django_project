@@ -2,8 +2,7 @@ base:
   '*':
   - user
   - python
+  - venvwrapper
   - postgresql
-  - website.django
-  - website.wsgiserver
-  - website.webserver
-  - emacs
+  - website
+  # - emacs

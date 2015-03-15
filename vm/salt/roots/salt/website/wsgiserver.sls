@@ -24,9 +24,9 @@ supervisor:
 
 gunicorn:
   pip.installed:
-    - name: gunicorn
-    - bin_env: {{ pillar ['website_venv_dir'] }}
-    - cmd: /home/vagrant/venv/bin
+    #- name: gunicorn
+    - bin_env: {{ pillar ['website_venv_bin'] }}
+    #- cmd: /home/vagrant/venv/bin
     - require:
       - pkg: python-pip
 

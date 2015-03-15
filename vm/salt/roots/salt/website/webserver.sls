@@ -6,14 +6,16 @@ nginx:
 
   service:
     - running
+    - reload: True
     - watch:
       - pkg: nginx
-      - file: /etc/nginx/nginx.conf
+      - file: /etc/nginx/sites-enabled/default
 
-/etc/nginx/nginx.conf:
+/etc/nginx/sites-enabled/default:
   file:
     - managed
-    - source: salt://website/nginx.conf
+    - source: salt://website/nginx.app
+    - template: jinja
     - user: root
     - group: root
     - mode: 644

@@ -1,4 +1,4 @@
 base:
   '*':
-  - postgresql
-  - website
+   - postgresql
+   - website
